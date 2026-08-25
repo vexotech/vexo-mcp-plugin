@@ -1,13 +1,11 @@
 {
   "name": "vexo",
+  "description": "Vexo's official Claude Code plugin marketplace.",
+  "version": "0.1.0",
   "owner": {
     "name": "Vexo",
     "email": "support@vexo.co",
     "url": "https://www.vexo.co"
-  },
-  "metadata": {
-    "description": "Vexo's official Claude Code plugin marketplace.",
-    "version": "0.1.0"
   },
   "plugins": [
     {
