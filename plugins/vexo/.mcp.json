@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "vexo": {
+      "type": "http",
+      "url": "https://api.vexo.co/mcp"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "vexo",
+  "description": "Query your Vexo React Native analytics and session-replay data from Claude Code, Cursor, or Claude Desktop via the Vexo MCP server.",
+  "version": "0.1.0",
+  "author": { "name": "Vexo", "url": "https://www.vexo.co" },
+  "homepage": "https://www.vexo.co",
+  "repository": "https://github.com/vexotech/vexo-mcp-plugin",
+  "license": "MIT",
+  "keywords": ["analytics", "react-native", "mcp", "session-replay", "vexo"]
+}

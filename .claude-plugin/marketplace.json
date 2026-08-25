@@ -1,0 +1,23 @@
+{
+  "name": "vexo",
+  "owner": {
+    "name": "Vexo",
+    "email": "support@vexo.co",
+    "url": "https://www.vexo.co"
+  },
+  "metadata": {
+    "description": "Vexo's official Claude Code plugin marketplace.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "vexo",
+      "source": "./plugins/vexo",
+      "description": "Query your Vexo React Native analytics and session-replay data from Claude Code via MCP.",
+      "version": "0.1.0",
+      "author": { "name": "Vexo", "url": "https://www.vexo.co" },
+      "homepage": "https://www.vexo.co",
+      "keywords": ["analytics", "react-native", "mcp", "session-replay", "vexo"]
+    }
+  ]
+}
