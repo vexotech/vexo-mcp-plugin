@@ -1,6 +1,6 @@
 {
   "name": "vexo",
-  "version": "0.1.0",
-  "description": "Query your Vexo React Native analytics and session-replay data from Claude Code, Cursor, or Claude Desktop via the Vexo MCP server.",
+  "version": "0.2.0",
+  "description": "Query your Vexo analytics, session replays, and errors from Claude Code, Cursor, or Claude Desktop via the Vexo MCP server.",
   "mcpServers": "./.mcp.json"
 }
