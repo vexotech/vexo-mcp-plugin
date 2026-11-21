@@ -90,6 +90,16 @@ MCP config (`claude_desktop_config.json` for Claude Desktop, or your Cursor MCP 
 
 A personal access token is read-only: it can call every read tool but no write tool.
 
+## MCP Registry
+
+[`server.json`](./server.json) lists the Vexo MCP server in the
+[Official MCP Registry](https://registry.modelcontextprotocol.io) as `io.github.vexotech/vexo-analytics`, a remote
+server at `https://api.vexo.co/mcp` over Streamable HTTP. MCP clients that read the registry connect to it and sign in
+with OAuth, the same as the Claude Code plugin.
+
+To change the listing, edit `server.json`, set a new `version` (the registry never changes a published version), and
+publish it with [`mcp-publisher`](https://github.com/modelcontextprotocol/registry/blob/main/docs/modelcontextprotocol-io/quickstart.mdx).
+
 ## Support
 
 - Docs: [MCP server](https://docs.vexo.co/settings/mcp-server)

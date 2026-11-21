@@ -1,0 +1,25 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.vexotech/vexo-analytics",
+  "title": "Vexo Analytics",
+  "description": "Query Vexo analytics, session replays, and errors for your React Native, Expo, and web apps.",
+  "version": "1.0.0",
+  "websiteUrl": "https://docs.vexo.co/settings/mcp-server",
+  "repository": {
+    "url": "https://github.com/vexotech/vexo-mcp-plugin",
+    "source": "github",
+    "id": "1346537457"
+  },
+  "icons": [
+    {
+      "src": "https://avatars.githubusercontent.com/u/67352669?v=4",
+      "mimeType": "image/jpeg"
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.vexo.co/mcp"
+    }
+  ]
+}
